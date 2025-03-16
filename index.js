@@ -1,4 +1,4 @@
 import { registerRootComponent } from 'expo';
-import App from './src/screens/app';  // ← `src/app.tsx` をエントリーポイントに設定
+import Home from './src/screens/home';  // ← `src/app.tsx` をエントリーポイントに設定
 
-registerRootComponent(App);
+registerRootComponent(Home);
